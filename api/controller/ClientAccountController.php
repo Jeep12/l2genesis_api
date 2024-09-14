@@ -64,4 +64,9 @@ class ClientAccountController
             $this->view->response(['message' => 'Token inválido'], 401);
         }
     }
+
+    public function metodoPrueba(){
+        
+        echo "Andando";
+    }
 }

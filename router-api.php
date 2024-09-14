@@ -28,6 +28,7 @@ $router->addRoute('resend_verification', 'POST', 'AuthController', 'resendEmailV
 //RUTAS CLIENT GAME
 $router->addRoute('registerAccountGame', 'POST', 'ClientAccountController', 'createAccountGame');
 
+$router->addRoute('pruebaHost', 'POST', 'ClientAccountController', 'metodoPrueba');
 
 
 // Extraer el recurso y el verbo
